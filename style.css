@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(rgba(0, 0, 0, 0.509), rgba(0, 0, 0, 0.567)), url("./bg.webp");
+    background-size: cover;
+}
+.header-h1{
+    color: white;
+    letter-spacing: .04rem;
+}
+.cat{
+    width: 30rem;
+    height: 30rem;
+    border: .2rem solid white;
+}
+.cat-img{
+   width: 100%;
+   height: 100%;
+}
+.btn-generate{
+    cursor: pointer;
+    border: .2rem solid white;
+    background-color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color .3s, color .3s;
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-generate:hover{
+    background-color: black;
+    color: white;
+}
